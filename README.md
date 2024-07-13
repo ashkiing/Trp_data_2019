@@ -14,9 +14,20 @@ Running the Project: First install items mentioned above then import the followi
 *In Jupyter notebook you have to run the cell using ctrl+enter or the icon is provide to run the cell*
 Now you're good to run the script which first download the file into the system then read the file from the location mentioned and run the neccessary transformation and then load the data after aggregating to database.
 
+*For Data Analysis need to install postgresql*
+
 Data Analysis: Follow the steps :
               -Design the schema
               -Implement the schema
               -Load data effieiently
+Data Visualization:
+              -install matplotlib seaborn pymysql
+              -import pandas as pd
+              -import matplotlib.pyplot as plt
+              -import seaborn as sns
+              -import pymysql
+              -from sqlalchemy import create_engine
+              
+
 *Make sure the data file is accessible by the database server*
 
