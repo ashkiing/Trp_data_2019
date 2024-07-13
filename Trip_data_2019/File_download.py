@@ -1,5 +1,3 @@
-pip install requests tenacity
-
 #-------script that uses the requests library to download parquet files for each month of the year 2019. The script handles network errors and retries using the tenacity library.------------
 # Create a directory to store the downloaded files
 output_dir = 'C:/Users/ashki/Downloads/Trip_data_2019'
